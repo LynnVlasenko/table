@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     private let timeArray = ["9:00", "14:55", "22:20", "89:23"]
     private let statusArray = ["Сигнал", "Сигнал", "Сигнал", "Сигнал"]
-    
+    //додаю налаштування для таблиці
     private let myTable: UITableView = {
         let table = UITableView()
         
